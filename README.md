@@ -4,6 +4,14 @@
 
 BhashaRAG is a Streamlit retrieval-augmented generation (RAG) app. It extracts and chunks a document, creates multilingual embeddings, retrieves relevant passages, and sends those passages to a configurable OpenAI-compatible language model to answer questions with document context.
 
+## Live demo
+
+The app is deployed and available at:
+
+- https://bhasha-rag.streamlit.app/
+
+Use the live deployment for quick testing without running the app locally. The local setup instructions below are still useful for development, customization, or when you want to run your own instance with a different model or environment configuration.
+
 ## Features
 
 - Reads PDF, DOCX, and TXT documents.
