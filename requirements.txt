@@ -1,0 +1,25 @@
+# --- UI ---
+streamlit>=1.39            # st.audio_input (microphone) needs >= 1.39
+
+# --- Configuration ---
+python-dotenv>=1.0
+
+# --- Document loading ---
+PyMuPDF>=1.24              # PDF text extraction (imported as "fitz")
+python-docx>=1.1           # DOCX text extraction
+
+# --- NLP ---
+langdetect>=1.0.9          # language detection
+langchain-text-splitters>=0.2   # recursive chunking with overlap
+sentence-transformers>=3.0 # multilingual embeddings (installs PyTorch)
+numpy>=1.26
+
+# --- Vector database ---
+chromadb
+
+# --- LLM (one OpenAI-compatible client covers Gemini/Groq/OpenRouter/Ollama) ---
+openai>=1.40
+
+# --- Voice ---
+SpeechRecognition>=3.10    # speech-to-text
+gTTS>=2.5                  # text-to-speech

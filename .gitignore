@@ -1,0 +1,32 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments, bytecode, and test/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Runtime uploads and generated vector database
+data/uploads/*
+!data/uploads/.gitkeep
+vectorstore/*
+!vectorstore/.gitkeep
+
+# Downloaded model/cache data
+.cache/
+cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
